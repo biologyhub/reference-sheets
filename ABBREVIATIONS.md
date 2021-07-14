@@ -10,3 +10,4 @@ Commonly used abbrevations in biology.
 |TF         |transcription factor            |molecular biology      |
 |PPi        |pyrophosphate                   |chemistry, biochemistry|
 |IDP        |intrinsically disordered protein|biology                |
+|FGS        |functional gene set             |bioinformatics         |
