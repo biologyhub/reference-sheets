@@ -11,3 +11,5 @@ Commonly used abbrevations in biology.
 |PPi        |pyrophosphate                   |chemistry, biochemistry|
 |IDP        |intrinsically disordered protein|biology                |
 |FGS        |functional gene set             |bioinformatics         |
+|dfn        |differentiation                 |developmental biology  |
+|cxh        |cachexia                        |cancer                 |
