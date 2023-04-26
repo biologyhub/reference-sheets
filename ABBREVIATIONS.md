@@ -13,3 +13,5 @@ Commonly used abbrevations in biology.
 |FGS        |functional gene set             |bioinformatics         |
 |dfn        |differentiation                 |developmental biology  |
 |cxh        |cachexia                        |cancer                 |
+|MP         |macrophage                      |immunology             |
+|NP         |neutrophil                      |immunology             |
