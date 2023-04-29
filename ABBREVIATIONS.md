@@ -14,4 +14,4 @@ Commonly used abbrevations in biology.
 |dfn        |differentiation                 |developmental biology  |
 |cxh        |cachexia                        |cancer                 |
 |MP         |macrophage                      |immunology             |
-|NP         |neutrophil                      |immunology             |
+|NEU        |neutrophil                      |immunology             |
