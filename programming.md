@@ -2,6 +2,13 @@
 
 ## Commands
 
+### launchctl
+
+```bash
+# Launching applications from Spotlight with environment variables
+launchctl setenv RSTUDIO_WHICH_R /Users/mattfeng/miniconda3/envs/R/bin/R
+```
+
 ### YouTube
 
 ```bash
