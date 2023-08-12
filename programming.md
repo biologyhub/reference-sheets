@@ -31,9 +31,15 @@ ffmpeg -i audio.wav -ar 22050 audio_22k.wav
 # merge two audio channels into one
 ffmpeg -i audio.wav -ac 1 audio_mono.wav
 
+# extract audio stream with variable bitrate
+# 	use this for enhancing audio with Adobe Podcast
+ffmpeg -i v.mp4 -q:a 0 -map a audio.mp3
+
 # replace audio from v.mp4 with audio from a.wav
+# 	use this for enhancing audio with Adobe Podcast
 ffmpeg -i v.mp4 -i a.wav -c:v copy -map 0:v:0 -map 1:a:0 new.mp4
 ````
+
 
 ## Links
 
