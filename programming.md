@@ -40,6 +40,17 @@ ffmpeg -i v.mp4 -q:a 0 -map a audio.mp3
 ffmpeg -i v.mp4 -i a.wav -c:v copy -map 0:v:0 -map 1:a:0 new.mp4
 ````
 
+## SSH
+- https://wiki.gentoo.org/wiki/SSH_jump_host
+- https://stackoverflow.com/questions/16212816/setting-up-openssh-for-windows-using-public-key-authentication
+
+## RAID
+- https://www.prepressure.com/library/technology/raid
+
+## GUI
+- ubuntu: `cat /etc/X11/default-display-manager`
+- opensuse: `cat /usr/lib/X11/displaymanagers/default-displaymanager`
+- redhat/fedora: `cat /etc/sysconfig/desktop`
 
 ## Links
 
