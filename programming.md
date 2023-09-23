@@ -40,6 +40,16 @@ ffmpeg -i v.mp4 -q:a 0 -map a audio.mp3
 ffmpeg -i v.mp4 -i a.wav -c:v copy -map 0:v:0 -map 1:a:0 new.mp4
 ````
 
+## Docker
+
+```bash
+# build Docker image for Apple Silicon (arm64/v8) Macs
+docker buildx build --platform linux/arm64/v8 --load -t IMAGE_NAME:arm64 ..
+
+# build Docker image for Linux
+docker buildx build --platform linux/amd64 --load -t IMAGE_NAME ..
+```
+
 ## SSH
 - https://wiki.gentoo.org/wiki/SSH_jump_host
 - https://stackoverflow.com/questions/16212816/setting-up-openssh-for-windows-using-public-key-authentication
